@@ -1,0 +1,22 @@
+{
+  "name": "test-task",
+  "title": "Test Practice App",
+  "description": "Simple YouTrack app to get familiar with the basics of creating a YouTrack Application",
+  "$schema": "https://json.schemastore.org/youtrack-app.json",
+  "vendor": {
+    "name": "JetBrains",
+    "url": "https://jetbrains.com"
+  },
+  "icon": "icon.svg",
+  "widgets": [
+
+    {
+      "key": "main",
+      "name": "Main",
+      "indexPath": "main/index.html",
+      "extensionPoint": "MAIN_MENU_ITEM",
+      "iconPath": "main/widget-icon.svg",
+      "description": "Testing ground"
+    }
+  ]
+}
